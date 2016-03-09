@@ -1,0 +1,46 @@
+@import "nib"
+@import "src/client/header/index.styl"
+@import "src/client/menu/index.styl"
+@import "src/client/main/index.styl"
+@import "src/client/util/icons.styl"
+
+body
+  font-size 16px
+  font-family "arial"
+  margin 0
+  padding 0
+
+.Landing
+  min-height 100vh
+
+.Offert
+  background #FFFDEE
+  padding 1em
+  &-image
+    height 150px
+
+  &-tag
+    background #E31D87
+    color white
+    display inline-block
+    padding .5em
+    font-size 1.2em
+    text-transform uppercase
+
+  &-text
+    font-size 2em
+    color #3C3C3B
+    margin .2em 0
+
+  &-button
+    font-size 1.2em
+    padding 1em 1.5em
+    display inline-block
+    text-decoration none
+    background #FFE596
+    border-bottom 7px solid #CFBC7D
+    border-radius 10px
+
+  &-left, &-right
+    display inline-block
+    vertical-align middle

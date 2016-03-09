@@ -1,0 +1,19 @@
+doctype html
+html(lang=es)
+  head
+    link(rel="stylesheet", href="./index.css")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Rk Creativa, Taller Publicitario
+  body
+    section.Landing
+      include header/index.jade
+      include main/index.jade
+      section.Offert
+        div.Offert-left
+          img.Offert-image(src="./img/offer/tshirt.png", alt="imagenDeLaOferta")
+        div.Offert-right
+          span.Offert-tag Aprovecha la oferta
+          p.Offert-text 12 unid. Tshirt RD$3,420.00
+          a.Offert-button(href="") Mas ofertas
+                
+    
