@@ -6,7 +6,7 @@
   "scripts": {
     "jade": "NODE_PATH=. jade --watch --pretty src/client/index.jade --out public",
     "styl": "NODE_PATH=. stylus --use nib --compress --watch src/client/index.styl --out public",
-    "build-js": "NODE_PATH=. browserify -t [ babelify --presets [ es2015 ] ] src/client/index.js > public/index.js",
+    "build": "NODE_PATH=. browserify -t [ babelify --presets [ es2015 ] ] src/client/index.js > public/index.js",
     "serve": "NODE_PATH=. http-server public"
   },
   "author": "Guillermo Lopez",

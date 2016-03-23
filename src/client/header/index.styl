@@ -1,6 +1,7 @@
 .AppHeader
   color #3C3C3B
   overflow hidden
+  padding 0 1em
 
   &-image
     height 100px
@@ -11,6 +12,9 @@
     display inline-block
     margin 0
     vertical-align middle
+    color gray
+    font-weight normal
+    text-transform uppercase
 
   &-left, &-right
     display inline-block
@@ -21,3 +25,30 @@
 
   &-right
     float right
+  &-button
+    position absolute
+    z-index 1000
+    top 50px
+    right 16px
+    font-size 2em
+    color black
+    text-decoration none
+  &-buttonCloset
+    color white
+    text-decoration none
+    position absolute
+    z-index 1002
+    top -10px
+    right 16px
+    font-size 1.5em
+    padding .5em
+
+@media only screen and (max-width: 500px)
+  .AppHeader
+    &-title
+      display none
+
+@media only screen and (min-width: 999px)
+  .AppHeader
+    &-button
+      display none

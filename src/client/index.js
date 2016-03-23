@@ -1,9 +1,3 @@
-import $ from 'jquery'
-import Handlebars from 'handlebars'
-
-var source = $('#service-template').html()
-
-function renderService (source, contex) {
-  var template = Handlebars.compile(source)
-  return template(context)
-}
+import menu from './menu/index.js'
+import service from './service/index.js'
+import offert from './offert/index.js'

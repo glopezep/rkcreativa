@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Impresos en Papel",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage": "./img/services/impresos-item.png",
+    "backgroundColor": "#64BFB2",
+    "backgroundIcon": "./img/services/impresos.png"
+  },
+  {
+    "title": "Textiles",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage" : "./img/services/textiles-item.png",
+    "backgroundColor": "#76C9DB",
+    "backgroundIcon" : "./img/services/textiles.png"
+  },
+  {
+    "title": "Impresos a Gran Formato",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage" : "./img/services/plotter-item.png",
+    "backgroundColor": "#F9CFDC",
+    "backgroundIcon" : "./img/services/plotter.png"
+  },
+  {
+    "title": "Instalaciones",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage" : "./img/services/instalaciones-item.png",
+    "backgroundColor": "#F7B588",
+    "backgroundIcon" : "./img/services/instalaciones.png"
+  },
+  {
+    "title": "Cnc Router",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage" : "./img/services/cnc-item.png",
+    "backgroundColor": "#BC333E",
+    "backgroundIcon" : "./img/services/cnc.png"
+  },
+  {
+    "title": "Eventos y Ferias",
+    "text": "Descripcion de este servicio que sera colocado en el template del servicio.",
+    "types": [ "type1", "type2", "type3", "type4", "type5", "type6"],
+    "backgroundImage" : "./img/services/eventos-item.png",
+    "backgroundColor": "#2A498D",
+    "backgroundIcon" : "./img/services/eventos.png"
+  }
+]

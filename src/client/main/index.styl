@@ -1,9 +1,18 @@
 .AppMain
-  background url('./img/impresos-icons.png') #3C3C3B no-repeat 100% 15%
-  color white
+  text-align center
+  color gray
   min-height 140px
-  padding 1em 30em 1em 1em
+  background url('img/nubes.png') no-repeat
+  background-size cover
 
   &-text
-    font-size 2.4em
+    font-size 1.5em
     margin 0
+
+@media only screen and (max-width: 700px)
+  .AppMain
+    padding 1em
+
+    &-text
+      font-size 1em
+      margin 0
