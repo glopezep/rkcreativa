@@ -10012,7 +10012,7 @@ var $services = (0, _jquery2.default)('.Services');
 var $servicesContainer = $services.find('.u-container-flex');
 var $serviceHeader = $servicesContainer.find('.Service-item .Service-header');
 var html = '';
-var template = '<div class="Service-item">\n    <div class="Service-header">\n      <figure class="Service-image"><img src=":backgroundIcon:" alt=""></figure>\n      <h1 class="Service-title">:title:</h1>\n    </div>\n    <div class="Service-description">\n      <p class="Service-text">:text:</p>\n    </div>\n    <ul class="Service-typeList">\n      <li class="Service-type">:type1:</li>\n      <li class="Service-type">:type2:</li>\n      <li class="Service-type">:type3:</li>\n      <li class="Service-type">:type4:</li>\n      <li class="Service-type">:type5:</li>\n      <li class="Service-type">:type6:</li>\n    </ul>\n  </div>';
+var template = '<div class="Service-item">\n    <div class="Service-header">\n      <figure class="Service-image"><img src=":backgroundIcon:" alt=""></figure>\n      <h1 class="Service-title">:title:</h1>\n    </div>\n    <ul class="Service-typeList">\n      <li class="Service-type">:type1:</li>\n      <li class="Service-type">:type2:</li>\n      <li class="Service-type">:type3:</li>\n      <li class="Service-type">:type4:</li>\n      <li class="Service-type">:type5:</li>\n      <li class="Service-type">:type6:</li>\n    </ul>\n  </div>';
 
 function renderService() {
   return Promise.resolve(_jquery2.default.getJSON('./data.json'));
@@ -10028,5 +10028,25 @@ renderService().then(function (services) {
 }).catch(function (err) {
   console.log(err);
 });
+
+// Template original que sera usado mas adelante
+
+/*var template = `<div class="Service-item">
+    <div class="Service-header">
+      <figure class="Service-image"><img src=":backgroundIcon:" alt=""></figure>
+      <h1 class="Service-title">:title:</h1>
+    </div>
+    <div class="Service-description">
+      <p class="Service-text">:text:</p>
+    </div>
+    <ul class="Service-typeList">
+      <li class="Service-type">:type1:</li>
+      <li class="Service-type">:type2:</li>
+      <li class="Service-type">:type3:</li>
+      <li class="Service-type">:type4:</li>
+      <li class="Service-type">:type5:</li>
+      <li class="Service-type">:type6:</li>
+    </ul>
+  </div>`*/
 
 },{"jquery":1}]},{},[2]);
